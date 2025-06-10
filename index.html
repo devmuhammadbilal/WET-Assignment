@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WET Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="app-heading">bilal's Ecommerce</h1>
+
+        <!-- Product List -->
+        <div class="product-list">
+            <div class="product" data-id="1">
+                <h2>Zara Jeans</h2>
+                <div class="img">
+                    <img src="assets/pants-hanger-spring-wardrobe.jpg" alt="">
+                </div>
+
+                <p>Price: $20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <h2>Polo Shirt</h2>
+                <div class="img">
+                    <img src="assets/white-polo-shirt-street-style-menswear-fashion-apparel-shoot.jpg" alt="">
+                </div>
+                <p>Price: $23.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+           
+        </div>
+
+        <!-- Cart Popup Section -->
+        <div id="cart-popup" class="cart-popup">
+            <div class="cart-content">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </ul>
+                <p id="total">Total: $0.00</p>
+                <button id="checkout-btn">Checkout</button>
+                <button id="close-cart">Close</button>
+            </div>
+        </div>
+
+        <!-- Cart Button -->
+        <button id="cart-btn" class="cart-btn">View Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
